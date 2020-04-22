@@ -9,10 +9,7 @@ public class Task extends PApplet {
 
     ArrayList<Task> tasks = new ArrayList<Task>();
 
-    public Task(TableRow tr) {
-    }
-
-    public void loadData() {
+    public void loadData(){
         Table t = loadTable("tasks.csv","header");
         for(TableRow tr:t.rows()){
             Task ta = new Task(tr);
