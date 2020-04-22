@@ -1,3 +1,8 @@
+/* 
+  C17315456 Seungmin Lee 
+  Computer Science International 
+  TU858
+*/
 package ie.tudublin;
 
 public class Main
